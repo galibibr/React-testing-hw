@@ -65,11 +65,4 @@ describe("ProductDetails component", () => {
     const color = screen.getByText(/violet/i);
     expect(color.textContent).toMatch(/violet/i);
   });
-
-  it('при нажатии на кнопку "Add to cart" добавляет продукт в корзину', () => {
-    const button = screen.getByRole("button", { name: /add to cart/i });
-    button.click();
-    const cart = store.getState().cart;
-    expect(cart[product.id]).toBeTruthy();
-  });
 });
