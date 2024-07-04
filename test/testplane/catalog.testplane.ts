@@ -1,12 +1,9 @@
+import { localURL } from "./helper/localUrl";
 
 describe('Каталог', () => {
-   const basePath = '/hw/store';
-   const baseUrl = 'http://localhost:3000';
 
    it('В каталоге для каждого товара отображаются название, цена, ссылка', async ({ browser }) => {
-      const puppeteer = await browser.getPuppeteer();
-      const [page] = await puppeteer.pages();
-      await page.goto(`${baseUrl}${basePath}/catalog`);
+      await browser.url(localURL('/catalog'));
       const productItems = await browser.$$('.ProductItem');
       for (let i = 0; i < productItems.length; i++) {
          const productItem = productItems[i];
@@ -23,9 +20,7 @@ describe('Каталог', () => {
    });
 
    it('товары из каталога открываются корректно', async ({ browser }) => {
-      const puppeteer = await browser.getPuppeteer();
-      const [page] = await puppeteer.pages();
-      await page.goto(`${baseUrl}${basePath}/catalog`);
+      await browser.url(localURL('/catalog'));
       const productLinks = await browser.$$('.ProductItem a');
       for (let i = 0; i < productLinks.length && i < 3; i++) {
          const productLink = productLinks[i];
@@ -36,7 +31,7 @@ describe('Каталог', () => {
          })
          let isDisplayed = await productDetailsElem.isDisplayed();
          expect(isDisplayed).toBeTruthy();
-         await page.goto(`${baseUrl}${basePath}/catalog`)
+         await browser.url(localURL('/catalog'));
       }
    });
 })
