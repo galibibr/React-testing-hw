@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Гамбургер при выборе элемента из меню 'гамбургера', меню должно закрываться 1`] = `
+<div
+  class="Application-Menu collapse navbar-collapse"
+>
+  <div
+    class="navbar-nav"
+  >
+    <a
+      class="nav-link"
+      href="/catalog"
+    >
+      Catalog
+    </a>
+    <a
+      class="nav-link"
+      href="/delivery"
+    >
+      Delivery
+    </a>
+    <a
+      class="nav-link"
+      href="/contacts"
+    >
+      Contacts
+    </a>
+    <a
+      class="nav-link"
+      href="/cart"
+    >
+      Cart
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Гамбургер при выборе элемента из меню 'гамбургера', меню должно закрываться 2`] = `
+<div
+  class="Application-Menu navbar-collapse"
+>
+  <div
+    class="navbar-nav"
+  >
+    <a
+      class="nav-link"
+      href="/catalog"
+    >
+      Catalog
+    </a>
+    <a
+      class="nav-link"
+      href="/delivery"
+    >
+      Delivery
+    </a>
+    <a
+      class="nav-link"
+      href="/contacts"
+    >
+      Contacts
+    </a>
+    <a
+      class="nav-link"
+      href="/cart"
+    >
+      Cart
+    </a>
+  </div>
+</div>
+`;
