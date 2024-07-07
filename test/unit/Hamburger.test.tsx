@@ -9,7 +9,6 @@ import "@testing-library/jest-dom";
 import { Application } from "../../src/client/Application";
 import { initStore } from "../../src/client/store";
 import { CartApi, ExampleApi } from "../../src/client/api";
-import userEvent from "@testing-library/user-event";
 
 describe("Гамбургер", () => {
   const basename = "/";
@@ -17,7 +16,6 @@ describe("Гамбургер", () => {
   const api = new ExampleApi(basename);
   const cart = new CartApi();
   const store = initStore(api, cart);
-  const user = userEvent.setup();
 
   const application = (
     <MemoryRouter initialEntries={["/"]} initialIndex={0}>
@@ -40,13 +38,16 @@ describe("Гамбургер", () => {
     expect(menu).toHaveClass("collapse");
   });
 
-  it("при выборе элемента из меню 'гамбургера', меню должно закрываться", async () => {
-    const { container, getByRole } = render(application);
-    // window.innerWidth = 550;
-    const hamburger = getByRole("button", { name: /toggle navigation/i });
-    const menu = container.querySelector(".Application-Menu");
-    expect(menu).toMatchSnapshot();
-    await events.click(hamburger);
-    expect(menu).toMatchSnapshot();
+  it('при выборе элемента из меню "гамбургера", меню должно закрываться', async () => {
+    const { container } = render(application);
+    const navbarWrapper = container.querySelector(".Application-Menu.collapse.navbar-collapse");
+    const navbarToggler = container.querySelector(".Application-Toggler.navbar-toggler");
+    const navbarLinks = container.querySelectorAll(".navbar-nav .nav-link");
+    if (!navbarWrapper || !navbarToggler || navbarLinks.length === 0) {
+      throw new Error("Не удалось найти необходимые элементы для теста");
+    }
+    await events.click(navbarToggler);
+    await events.click(navbarLinks[0]);
+    expect(navbarWrapper.classList).toContain("collapse");
   });
 });
