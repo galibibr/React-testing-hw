@@ -40,6 +40,7 @@ describe("ProductItem component", () => {
 
   it("должен отображать название", () => {
     const title = screen.getByRole("heading", { name: /product/i });
+    expect(screen.getByTestId(product.id)).toBeTruthy();
     expect(title.textContent).toMatch(/product/i);
   });
 
