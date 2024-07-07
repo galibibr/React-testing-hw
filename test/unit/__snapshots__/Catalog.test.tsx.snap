@@ -1,0 +1,1033 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog должны отображаться товары из списка, полученного с сервера 1`] = `
+<div>
+  <div
+    class="Application"
+  >
+    <nav
+      class="navbar navbar-expand-sm navbar-light bg-light"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="Application-Brand navbar-brand"
+          href="/"
+        >
+          Kogtetochka store
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          class="Application-Toggler navbar-toggler"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="Application-Menu collapse navbar-collapse"
+        >
+          <div
+            class="navbar-nav"
+          >
+            <a
+              aria-current="page"
+              class="active nav-link"
+              href="/catalog"
+            >
+              Catalog
+            </a>
+            <a
+              class="nav-link"
+              href="/delivery"
+            >
+              Delivery
+            </a>
+            <a
+              class="nav-link"
+              href="/contacts"
+            >
+              Contacts
+            </a>
+            <a
+              class="nav-link"
+              href="/cart"
+            >
+              Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container pt-4"
+    >
+      <div
+        class="Catalog"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          >
+            <h1>
+              Catalog
+            </h1>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="0"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="0"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Handmade Pizza
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  509
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/0"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="1"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="1"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Unbranded Chips
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  35
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/1"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="2"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="2"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Generic Pants
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  106
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/2"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="3"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="3"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Rustic Ball
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  999
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/3"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="4"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="4"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Generic Chips
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  250
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/4"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="5"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="5"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Generic Bike
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  438
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/5"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="6"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="6"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Handmade Sausages
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  320
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/6"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="7"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="7"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Generic Salad
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  608
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/7"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="8"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="8"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Handmade Hat
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  224
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/8"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="9"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="9"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Fantastic Car
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  291
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/9"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="10"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="10"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Intelligent Towels
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  382
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/10"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="11"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="11"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Handmade Chicken
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  322
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/11"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="12"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="12"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Intelligent Chair
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  2
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/12"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="13"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="13"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Licensed Gloves
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  945
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/13"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="14"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="14"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Incredible Pants
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  470
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/14"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="15"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="15"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Practical Tuna
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  225
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/15"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="16"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="16"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Licensed Bike
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  404
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/16"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="17"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="17"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Ergonomic Cheese
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  557
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/17"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="18"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="18"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Incredible Sausages
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  421
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/18"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="19"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="19"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Intelligent Shirt
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  513
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/19"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="20"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="20"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Unbranded Chips
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  709
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/20"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="21"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="21"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Ergonomic Bike
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  814
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/21"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="22"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="22"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Licensed Mouse
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  518
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/22"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="23"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="23"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Awesome Hat
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  23
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/23"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="24"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="24"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Incredible Hat
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  734
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/24"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="25"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="25"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Ergonomic Towels
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  550
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/25"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3"
+            data-testid="26"
+          >
+            <div
+              class="ProductItem card w-100 mb-4"
+              data-testid="26"
+            >
+              <img
+                class="Image card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="ProductItem-Name card-title"
+                >
+                  Intelligent Towels
+                </h5>
+                <p
+                  class="ProductItem-Price card-text"
+                >
+                  $
+                  176
+                </p>
+                <a
+                  class="ProductItem-DetailsLink card-link"
+                  href="/catalog/26"
+                >
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

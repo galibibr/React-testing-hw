@@ -1,5 +1,5 @@
 import { it, expect } from "@jest/globals";
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
 import { Provider } from "react-redux";
 import { initStore } from "../../src/client/store";
@@ -26,14 +26,7 @@ describe("Catalog", () => {
   const productItems = container.getElementsByClassName("ProductItem");
 
   it("должны отображаться товары из списка, полученного с сервера", async () => {
-    for (let i = 0; i < productItems.length; i++) {
-      const productItem = productItems[i];
-      const titleElement = productItem.querySelector(".ProductItem-Name");
-      const titleText = titleElement?.textContent;
-      const titleFound = productsData.find((item) => item.name === titleText);
-      expect(titleElement).toBeTruthy();
-      expect(titleFound).toBeTruthy();
-    }
+    expect(container).toMatchSnapshot();
   });
 
   it("для каждого товара в каталоге отображается название товара", async () => {

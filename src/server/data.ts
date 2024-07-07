@@ -11,7 +11,7 @@ const cats = faker.animal;
 const generateProducts = () => {
     const products: Product[] = []
 
-    for(let id = 0; id < 27; id++) {
+    for (let id = 0; id < 27; id++) {
         products.push({
             id,
             name: `${commerce.productAdjective()} kogtetochka`,
@@ -40,6 +40,8 @@ export class ExampleStore {
 
         if (bugId === 1) {
             products.forEach(p => { p.name = undefined });
+            console.log('BOOOOOOOOG', bugId);
+
         }
 
         return products;

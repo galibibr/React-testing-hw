@@ -5,7 +5,7 @@ export const localURL = (page: string) => {
 
    url += basename + page;
 
-   !!bugID && (url += `?bug_id=${bugID}`);
+   !!bugID && (url += `?bug_id=${bugID.toString().trim()}`);
 
    return url;
 }

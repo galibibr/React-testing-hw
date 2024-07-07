@@ -2,6 +2,14 @@ import { localURL } from "./helper/localUrl";
 
 describe('Каталог', () => {
 
+   it("Проверяет что в каталоге должны отображаться товары, список которых приходит с сервера :", async ({
+      browser,
+   }) => {
+      await browser.url(localURL("/catalog"));
+      const productCards = await Promise.all(await browser.$$(".ProductItem"));
+      expect(productCards.length).toBeGreaterThan(1);
+   });
+
    it('В каталоге для каждого товара отображаются изображение, название, цена, ссылка', async ({ browser }) => {
       await browser.url(localURL('/catalog'));
 
